@@ -1,0 +1,36 @@
+{
+  "name": "blog",
+  "main": [
+    "/dist/website.min.js",
+    "/dist/website.min.css"
+  ],
+  "version": "0.0.1",
+  "description": "Blog",
+  "authors": [
+    "elhebert <elhebert@hotmail.be>"
+  ],
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "klei.json",
+    "gulpfile.js",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-bootstrap": "~1.1.2",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.0"
+  },
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true
+}
