@@ -7,6 +7,7 @@
 		<title>Bootstrap 101 Template</title>
 
 		<!-- inject:vendor:css -->
+		<link href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 		<!-- endinject -->
 		<!-- inject:css -->
 		<!-- endinject -->
@@ -19,11 +20,26 @@
 		<![endif]-->
 	</head>
 	<body ng-app="blog">
+		<navbar></navbar>
 		<h1>Hello, world!</h1>
 
 	<!-- inject:vendor:js -->
+	<script src="/angular/angular.js"></script>
+	<script src="/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	<script src="/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="/jquery/dist/jquery.js"></script>
+	<script src="/bootstrap/dist/js/bootstrap.js"></script>
 	<!-- endinject -->
 	<!-- inject:js -->
+	<script src="/posts/post.controller.js"></script>
+	<script src="/posts/post.components.js"></script>
+	<script src="/posts/module.js"></script>
+	<script src="/interface/module.js"></script>
+	<script src="/interface/navbar.component.js"></script>
+	<script src="/config/module.js"></script>
+	<script src="/config/constants.js"></script>
+	<script src="/app.js"></script>
+	<script src="/blog-templates.js"></script>
 	<!-- endinject -->
 	</body>
 </html>
