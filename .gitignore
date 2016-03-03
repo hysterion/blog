@@ -1,6 +1,10 @@
 bower_components
 node_modules
+
 dist
 .tmp
+
+.vscode
 typings
-images
+
+posts

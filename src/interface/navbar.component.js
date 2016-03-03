@@ -1,9 +1,9 @@
 (function (angular) {
-'use strict';
+	'use strict';
 
-angular.module('interface')
-	.component('navbar', {
-		bindings: {},
-		templateUrl: 'interface/navbar.html',
-	});
+	angular.module('interface')
+		.component('navbar', {
+			bindings: {},
+			templateUrl: 'interface/navbar.html',
+		});
 })(window.angular);

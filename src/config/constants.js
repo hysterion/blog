@@ -3,7 +3,7 @@
 
 	var BLOG_CONF = {
 		version: '0.0.1',
-		name: 'Elhebert blog',
+		name: 'blog',
 		author: 'Elhebert <elhebert@hotmail.be>',
 		staticFiles: '/posts',
 	};
