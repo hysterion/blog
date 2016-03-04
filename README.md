@@ -3,7 +3,7 @@ Blog (Project name yet to be defined)
 
 ## About
 
-This project is about created a blog powered by AngularJS with static files.
+This project is about creating a blog powered by AngularJS through static files.
 
 ## Tech stack
 
